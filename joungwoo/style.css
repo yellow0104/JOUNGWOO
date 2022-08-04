@@ -1,0 +1,65 @@
+p{
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+}
+
+.hello_world {
+    font-size: 100px;
+    margin:10;
+    color : white;
+}
+
+.wejw{
+    font-size: 45px;
+    margin:0;
+    color : white;
+}
+
+.log:hover{
+    transform: scale( 1.1, 1.1 );
+}
+
+
+
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin:0;
+}
+.txt{
+    font-size: 50px;
+}
+.txt2{
+font-size: 35px;}
+@media (prefers-color-scheme: dark) {
+    p{
+        color:white;
+    }
+    body{
+        background-color: rgb(20, 20, 20);
+    }
+    .background{
+        font-size: 20px;
+        color: black;
+        background-color: white;
+        padding: 30;
+        margin: 0;
+   }
+    
+}
+
+
+@media (prefers-color-scheme: light) {
+    .background{
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        padding: 30;
+        margin: 0;
+   }
+    
+}
+
