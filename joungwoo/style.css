@@ -1,18 +1,16 @@
 p{
     text-align: center;
-    font-family: 'Dongle', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;    
 }
 
 .hello_world {
-    font-size: 100px;
+    font-size: 50px;
     margin:10;
-    color : white;
 }
 
 .wejw{
-    font-size: 45px;
+    font-size: 25px;
     margin:0;
-    color : white;
 }
 
 .log:hover{
@@ -30,10 +28,10 @@ body{
     margin:0;
 }
 .txt{
-    font-size: 50px;
+    font-size: 30px;
 }
 .txt2{
-font-size: 35px;}
+font-size: 15px;}
 @media (prefers-color-scheme: dark) {
     p{
         color:white;
@@ -42,10 +40,11 @@ font-size: 35px;}
         background-color: rgb(20, 20, 20);
     }
     .background{
-        font-size: 20px;
+        text-align: center;
+        font-size: 10px;
         color: black;
         background-color: white;
-        padding: 30;
+        padding: 30px;
         margin: 0;
    }
     
@@ -54,10 +53,11 @@ font-size: 35px;}
 
 @media (prefers-color-scheme: light) {
     .background{
-        font-size: 20px;
+        text-align: center;
+        font-size: 10px;
         color: white;
         background-color: black;
-        padding: 30;
+        padding: 30px;
         margin: 0;
    }
     
